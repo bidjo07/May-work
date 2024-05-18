@@ -1,0 +1,12 @@
+#include<stdio.h>
+double square(double num) {
+    return num * num;
+}
+
+int main() {
+    double num;
+    printf("Enter a number: ");
+    scanf("%lf", &num);
+    printf("Square of %.2lf is %.2lf", num, square(num));
+    return 0;
+}
